@@ -1,0 +1,46 @@
+/* Estilo do rodapé */
+
+.rodape {
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.rodape__info, .rodape__info2 {
+    margin-left: 20px;
+}
+
+.rodape_escuro {
+    background-color: black;
+}
+
+@media screen and (min-width: 0) {
+    .rodape {
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .rodape__info {
+        margin-bottom: 20px;
+    }
+
+    .rodape__info2 {
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .rodape {
+        flex-direction: row;
+        font-size: 16px;
+    }
+
+    .rodape__info {
+        margin-bottom: 0;
+    }
+
+    .rodape__info2 {
+        line-height: 0;
+    }
+}

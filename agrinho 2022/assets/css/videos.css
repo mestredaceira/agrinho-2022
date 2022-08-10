@@ -1,0 +1,46 @@
+.main {
+    text-align: center;
+}
+
+.titulo {
+    margin-bottom: 2rem;
+}
+
+.video {
+    margin-bottom: 2rem;
+}
+
+.frase {
+    
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .titulo {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+   
+    .video {
+        width: 100%;
+    }
+
+    .frase {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .titulo {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .video {
+        width: 50%;
+    }
+
+    .frase {
+        font-size: 18px;
+    }
+}

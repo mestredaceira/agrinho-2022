@@ -1,0 +1,78 @@
+.sexto {
+    text-align: center;
+}
+
+
+
+.nivel {
+    font-size: 1.324rem;
+    color: gray;
+}
+
+
+
+
+
+.titulo_conteudos {
+    
+    margin: 16px;
+}
+
+.item {
+    margin: 20px;
+    color: teal;
+}
+
+@media screen and (min-width: 0) {
+    .video {
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 2.3rem;
+        margin-top: 80px;
+    }
+
+    .descricao {
+        margin: 10px;
+        font-size: 25px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        line-height: 40px;
+    }
+
+    .titulo_conteudos {
+        font-size: 2rem;
+    }
+
+    .item {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .video {
+        width: 50%;
+    }
+
+    .titulo {
+        font-size: 2rem;
+        margin-top: 0;
+    }
+
+    .descricao {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin: 80px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .titulo_conteudos {
+        font-size: 1.56rem;
+    }
+
+    .item {
+        font-size: 16px;
+    }
+}

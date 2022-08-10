@@ -1,0 +1,90 @@
+/* Uma caixa que vai guardar dentro o título e uma breve descrição sobre o programa EduTech. */
+.principal__caixa {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* Estilo da imagem. */
+.principal__imagem {
+    width: 24rem;
+    margin-top: 5rem;
+}
+.principal__imagem1 {
+    width: 25rem;
+    margin-top: 5rem;
+}
+.principal__imagem2 {
+    width: 28rem;
+    margin-top: 5rem;
+}
+
+.logo{
+    width: 5rem;
+    margin-top: 0rem;
+   }
+@media screen and (min-width: 0) {
+    .principal__titulos {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .principal__texto {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .principal__titulo {
+        font-size: 3rem;
+    } 
+
+    .principal__titulo2 {
+        font-size: 4rem;
+    }
+
+    .principal__imagem {
+        margin-left: 0;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .principal__titulos {
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    .principal__texto {
+        line-height: 1.5rem;
+        font-size: 20px;
+    }
+
+    .principal__titulo {
+        font-size: 2rem;
+    }
+
+    .principal__titulo2 {
+        font-size: 3rem;
+    }
+
+    .principal__imagem {
+        margin-left: 9rem;
+
+    }
+
+    .logo{
+        margin-left: 0rem;
+    }
+
+
+
+}
+
+

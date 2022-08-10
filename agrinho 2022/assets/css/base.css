@@ -1,0 +1,35 @@
+/* aqui está sendo importado o reset.css, que tira todos os estilos padrão do navegador */
+@import url(./_reset.css);
+
+
+/* Botão modo escuro e modo claro */
+
+.modo_claro {
+    margin-left: 10rem;
+    margin-top: 50px;
+}
+
+.modo_escuro {
+    margin-left: 2rem;
+    margin-top: 50px;
+}
+
+.modo_claro:hover {
+    border: solid blue 1px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.modo_escuro:hover {
+    border: solid blue 1px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.fonte_clara {
+    color: white;
+}
+
+.fundo_escuro {
+    background-color: black;
+}
